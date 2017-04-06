@@ -10,6 +10,22 @@ get '/neet' => sub {
     template 'index';
 };
 
-##
+######################################################################
+### Endpoint for FUNCTION
+get '/alpha' => sub {
+    template 'index';
+};
+
+######################################################################
+### Endpoint for FUNCTION
+get '/bravo' => sub {
+    template 'index';
+};
+
+######################################################################
+### Endpoint for FUNCTION
+get '/charlie' => sub {
+    template 'index';
+};
 
 true;
