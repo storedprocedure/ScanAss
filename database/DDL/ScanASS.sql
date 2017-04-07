@@ -35,19 +35,18 @@ PRAGMA foreign_keys = ON;
 
 --- ########################################################################################
 --- TABLES
---- 'scan' holds info specific to each scan run
 --- ########################################################################################
-CREATE TABLE scan (
-    id    INTEGER PRIMARY KEY,
-    
-);
-
 --- 'host' holds most current info specific to each host
-CREATE TABLE scan (
+CREATE TABLE host (
     id    INTEGER PRIMARY KEY,
     
 );
 
+--- 'scan' holds info specific to each scan run
+CREATE TABLE scan (
+    id    INTEGER PRIMARY KEY,
+    
+);
 
 --- 'network' holds most current info specific to each network
 CREATE TABLE network (
